@@ -1,0 +1,31 @@
+.banner{
+    background-color: gold;
+    color:white;
+    text-alingn: center;
+    padding: 2.5cm 2cm;
+}
+.banner__titulo{
+    font-size: 18px;
+    font-family: 70px;
+}
+.banner__texto{
+    font-weight: 500;
+    margin: 1cm 0;
+}
+.banner__pesquisa{
+    background-color: transparent;
+    border: 1px solid white;
+    color:white;
+    border-radius: 24px;
+    padding: 1cm;
+    width: 100%;
+}
+.banner__pesquisa::placeholder{
+    font-family: var(--fonte-priciopal);
+    font-size: 14px;
+    font-weight: 400;
+    text-aling: certer;
+    color:white;
+    background: url("../img/lupa.svg") no-repeat;
+    background-position: 1cm;
+}
